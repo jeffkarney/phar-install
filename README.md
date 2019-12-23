@@ -17,7 +17,7 @@ Add the following to `composer.json`:
 Add phar-install:
 
 ```
-composer require --dev dxw/phar-install
+composer require --dev jeffkarney/phar-install
 ```
 
 `vendor.phar` will be rebuilt automatically every time `composer update` or `composer require` is run.
