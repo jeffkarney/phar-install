@@ -1,5 +1,5 @@
 {
-    "name": "dxw/phar-install",
+    "name": "jeffkarney/phar-install",
     "description": "",
     "homepage": "https://github.com/dxw/phar-install",
     "license": "MIT",
@@ -8,6 +8,10 @@
             "name": "Mallory Adams",
             "email": "mallory@dxw.com",
             "homepage": "https://www.dxw.com"
+        },
+        {
+            "name: "Jeff Karney",
+            "email": "jeff.karney@gmail.com"
         }
     ],
     "bin": ["bin/phar-install"]
