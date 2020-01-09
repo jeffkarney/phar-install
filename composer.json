@@ -14,5 +14,8 @@
             "email": "jeff.karney@gmail.com"
         }
     ],
-    "bin": ["bin/phar-install"]
+    "bin": ["bin/phar-install"],
+    "scripts": {
+        "post-update-cmd": "vendor/bin/phar-install"
+    }
 }
