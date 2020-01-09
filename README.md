@@ -6,14 +6,6 @@ This may be useful if you want to put your project in a web-readable directory b
 
 ## Usage
 
-Add the following to `composer.json`:
-
-```
-  "scripts": {
-    "post-update-cmd": "vendor/bin/phar-install"
-  },
-```
-
 Add phar-install:
 
 ```
