@@ -4,8 +4,8 @@ set -xe
 
 # Temp locations
 
-export TMP_DIR=/tmp/phar-install-tmp-dir
-export TMP_FILE=/tmp/phar-install-tmp.phar
+export TMP_DIR=`pwd`/phar-install-tmp-dir
+export TMP_FILE=`pwd`/vendor-temp.phar
 export PHAR=`pwd`/vendor.phar
 
 # Cleanup
